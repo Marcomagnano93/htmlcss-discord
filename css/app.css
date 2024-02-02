@@ -102,6 +102,10 @@ h1 {
     padding-bottom: 16px;
 }
 
+.pt32 {
+    padding-top: 32px;
+}
+
 .padding12 {
     padding: 12px;
 }
@@ -153,7 +157,14 @@ header {
     color: black;
 }
 
+.bg__blue {
+    background-color: rgb(66, 184, 224);
+    color: white;
+}
 
+.star {
+    background-image: url(../img/stars.svg);
+}
 
 
 
@@ -288,17 +299,34 @@ header {
 
 .debug .row__green {
     border: 2px solid red;
-    height: 720px;
-    display: flex;
+    height: 1025px;
+    
+   
 }
 
 .debug .green {
-    background-color: green;
+    
     border: 2px dotted black;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
 }
 
+.inline {
+    display: inline-block;
+    width: 720px;
+}
+
+.section__paragraph {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
 
 /* FOOTER DEBUG */
 .debug .row__black {
