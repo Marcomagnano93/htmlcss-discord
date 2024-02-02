@@ -80,6 +80,31 @@ img {
 
 /*STYLE*/
 
+header {
+    background-image: url(../img/jumbo.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bt__white {
     border-top: 3px solid white;
 }
