@@ -170,10 +170,6 @@ header {
     color: white;
 }
 
-.star {
-    background-image: url(../img/stars.svg);
-}
-
 
 
 
@@ -363,6 +359,6 @@ header {
 
 .debug .col__footer {
     border: 2px dotted black;
-    background-color: orangered;
+    
     
 }
