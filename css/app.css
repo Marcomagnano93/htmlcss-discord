@@ -266,8 +266,8 @@ header {
 }
 
 /* section white */
-.debug .row__white {
-    border: 2px solid red;
+.debug .row__card {
+    
     height: 480px;
     display: flex;
 }
