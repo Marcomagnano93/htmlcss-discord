@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-ul, ol, menu {
+ul, ol {
     list-style: none;
 }
 
@@ -297,14 +297,11 @@ header {
 
 /* section gray bis */
 
-.debug .row__green {
-    border: 2px solid red;
+.debug .row1025 {
     height: 1025px;
-    
-   
 }
 
-.debug .green {
+.debug .tecnologia__affidabile {
     
     border: 2px dotted black;
     height: 100%;
