@@ -48,9 +48,13 @@ h1 {
     padding-bottom: 32px;
 }
 
-
+.nav {
+    justify-content: space-between;
+}
 /* UTILITIES */
-
+.gap16 {
+    gap: 16px;
+}
 
 .fb__15 {
     flex-basis: calc(70% / 4);
@@ -87,6 +91,11 @@ h1 {
     justify-content: flex-start;
 }
 
+.justify__between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .pb16 {
     padding-bottom: 16px;
 }
@@ -106,14 +115,21 @@ header {
     font-size: 16px;
 }
 
-.button {
-   
-    color: white;
+.normal__button {
+
     padding: 12px;
-    margin: 4px;
+    margin: 8px;
     border-radius: 25px;
+    font-size: 12px;
     
 }
+
+.small__button {
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-size: 12px;
+  }
+
 
 .bg__black {
     background-color: rgb(2, 2, 18);
@@ -208,7 +224,6 @@ header {
 
 
 .debug .row__navbar {
-    border: 2px solid red;
     height: 32px;
     display: flex;
     justify-content: center;
