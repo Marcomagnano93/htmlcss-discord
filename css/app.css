@@ -30,13 +30,20 @@ img {
 .container {
 	max-width: 1025px;
 	margin: 0 auto;
+    padding: 20px;
 }
 
 .row {
 	display: flex;
 	flex-wrap: wrap;
+    padding: 20px;
 }
 
+.col {
+    
+    height: 100%;
+    
+}
 
 .link-menu {
     display: flex;
@@ -194,45 +201,6 @@ header {
 }
 
 
-
-
-
-
-/*DEBUG*/
-
-.debug .container {
-	border: 2px dotted black;
-	padding: 20px;
-}
-
-.debug .row {
-	border: 2px solid red;
-	padding: 20px;
-    
-}
-
-.debug .col {
-    border: 2px dotted black;
-    height: 100%;
-    
-}
-
-/*DEBUG bg-color*/
-
-.debug .header-navbar {
-    background-color: aquamarine;
-}
-
-
-.debug .section-blue {
-    background-color: blue;
-}
-
-.debug .section-white {
-    background-color: white;
-}
-
-
 .debug .section-gray {
     background-color: gray;
 }
@@ -245,11 +213,6 @@ header {
 
 /*debug header navbar*/
 
-.debug .orange__navbar{
-    background-color: orange;
-}
-
-
 .debug .row__navbar {
     height: 32px;
     display: flex;
@@ -258,7 +221,7 @@ header {
 }
 
 
-/*debug main*/
+
 /*section title */
 
 
@@ -280,7 +243,7 @@ header {
 
 }
 
-/* section white */
+/* section card */
 .debug .row__card {
 
     height: 480px;
@@ -291,15 +254,8 @@ header {
     text-align: left;
     padding: 32px 60px;
 }
-.debug .aqua {
-    background-color: aqua;
-}
 
-.debug .pink {
-    background-color: pink;
-}
-
-/* section gray bis */
+/* section TECNOLOGIA AFFIDABILE */
 
 .debug .row1025 {
     height: 1025px;
@@ -307,15 +263,12 @@ header {
 
 .debug .tecnologia__affidabile {
     
-    border: 2px dotted black;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    
-    
 }
 
 .inline {
@@ -329,36 +282,18 @@ header {
     align-items: center;
 }
 
-/* FOOTER DEBUG */
+/* FOOTER */
 .debug .row__links {
 
     height: 560px;
     display: flex;
 }
 
-.debug .salmon {
-    background-color: salmon;
-}
-
-.debug .aquamarine {
-    background-color: aquamarine;
-}
-/* FOOTER NAVBAR SECTION DEBUG */
+/* FOOTER NAVBAR SECTION  */
 
 .debug .row__footer__navbar {
-    border: 2px solid red;
     height: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.debug .azure {
-    background-color: rgb(9, 163, 163);
-}
-
-.debug .col__footer {
-    border: 2px dotted black;
-    
-    
 }
