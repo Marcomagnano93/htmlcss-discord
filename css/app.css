@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-ul, ol {
+ul, ol, menu {
     list-style: none;
 }
 
@@ -124,6 +124,14 @@ header {
     color: white;
 }
 
+.font__purple {
+    color: #5865f2;
+}
+
+.link__list {
+    font-size: 24px;
+    font-weight: 600;
+}
 
 .section__title {
     font-size: 32px;
@@ -235,7 +243,7 @@ header {
 
 
 .debug .footer-black {
-    background-color: black;
+    background-color: #3b3b3b;
     
 }
 
@@ -326,8 +334,8 @@ header {
 }
 
 /* FOOTER DEBUG */
-.debug .row__black {
-    border: 2px solid red;
+.debug .row__links {
+
     height: 560px;
     display: flex;
 }
