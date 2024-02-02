@@ -42,6 +42,15 @@ img {
     align-items: center;
 }
 
+h1 {
+    font-size: 40px;
+    padding-bottom: 32px;
+}
+
+
+/* UTILITIES */
+
+
 .fb__15 {
     flex-basis: calc(70% / 4);
 }
@@ -62,21 +71,24 @@ img {
     flex-basis: 60%;
 }
 
-.flx__center {
+.justify__center {
     display: flex;
     justify-content: center;
 }
 
-.flx__end {
+.justify__end {
     display: flex;
     justify-content: flex-end;
 }
 
-.flx__start {
+.justify__start {
     display: flex;
     justify-content: flex-start;
 }
 
+.pb16 {
+    padding-bottom: 16px;
+}
 
 /*STYLE*/
 
@@ -84,6 +96,13 @@ header {
     background-image: url(../img/jumbo.png);
 }
 
+.font__white {
+    color: white;
+}
+
+.row__title > p {
+    font-size: 16px;
+}
 
 
 
@@ -176,19 +195,25 @@ header {
 
 
 /*debug main*/
-/*section blue */
-.debug .col__blue {
-    background-color: blueviolet;
-    border: 2px dotted black;
-    height: 90%;
-    width: 80%;
-}
+/*section title */
 
-.debug .row__blue {
+
+.debug .row__title {
     height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.debug .col__title {
+    
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
 }
 
 /* section white */
