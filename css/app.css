@@ -267,7 +267,7 @@ header {
 
 /* section white */
 .debug .row__card {
-    
+
     height: 480px;
     display: flex;
 }
@@ -288,7 +288,7 @@ header {
 
 .debug .row__green {
     border: 2px solid red;
-    height: 640px;
+    height: 720px;
     display: flex;
 }
 
