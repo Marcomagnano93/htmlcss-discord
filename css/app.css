@@ -36,6 +36,12 @@ img {
 	flex-wrap: wrap;
 }
 
+
+.link-menu {
+    display: flex;
+    align-items: center;
+}
+
 .fb__15 {
     flex-basis: calc(70% / 4);
 }
